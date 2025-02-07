@@ -1,0 +1,26 @@
+{
+    "home": {
+        "aim": "We belive AI will change the world",
+        "desc": "Your personal AI assistant, help you manage your life",
+        "StartChatting": "Start Chatting",
+        "ScheduleManagement": "Schedule Management",
+        "ScheduleManagementDec": "Efficiently manages schedules with reminders, task allocation, voice commands, and real-time collaboration, ensuring data security and privacy for business and personal use",
+        "SecretaryAffairs": "Secretary Affairs",
+        "SecretaryAffairsDec": "Manages schedules, sets reminders, organizes tasks, and facilitates real-time collaboration, ensuring efficient and secure secretary services",
+        "EmotionalCompanionship": "Emotional companionship",
+        "EmotionalCompanionshipDec":"Offers emotional support, engages in conversations, provides encouragement, and helps manage stress, acting as a comforting companion"
+    },
+    "Demo": "Demo",
+    "About": "About",
+    "Contact": "Contact",
+    "chat": {
+        "defaultText": "Hello, I'm your personal assistant Vivian, how can I help you?",
+        "sendBtn": "send"
+    },
+    "about": {
+        "OurMission": "Our Mission",
+        "OurMissionContent": "Our mission is to provide the best AI-powered personal assistant to make your life easier. We strive to deliver the highest quality service and support to help you manage your daily tasks efficiently.",
+        "Position": "Position",
+        "CEOskil": "Aimny has a lot of experices on AI and Entrepreneurial"
+    }
+}

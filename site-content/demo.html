@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaowei</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!-- 这个无法加载，后面需要解决一下 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="chat-container" class="container mt-4">
+        <div id="chat-box" class="mb-3"></div>
+        <div id="input-container" class="d-flex">
+            <div id="input-wrapper" class="flex-grow-1 position-relative">
+                <textarea id="chat-input" class="form-control" placeholder="Type a message..." rows="1"></textarea>
+                <button id="send-button" class="btn position-absolute">
+                    <img src="img/send.png" alt="Send" class="send-icon">
+                </button>
+            </div>
+        </div>
+        <button id="toggle-recognition">Voice Input</button>
+    </div>
+    <div id="footer"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="scripts/scripts.js"></script>
+    <script src="scripts/loadCommon.js"></script> <!-- 引入JavaScript文件 -->
+</body>
+</html>

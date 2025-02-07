@@ -1,0 +1,37 @@
+body { font-family: Arial, sans-serif; height: 100vh; display: flex; flex-direction: column; }
+#chat-container { width: 100%; max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; height: 100vh; }
+#chat-box { flex: 1; overflow-y: auto; border: none; padding: 10px; box-sizing: border-box; }
+#input-container { padding: 10px; }
+#input-wrapper { display: flex; align-items: center; }
+#chat-input { flex-grow: 1; padding: 10px; border: 1px solid #ccc; border-radius: 20px; resize: none; overflow: hidden; min-height: 40px; box-sizing: border-box; padding-right: 50px; }
+#send-button { right: 10px; top: 50%; transform: translateY(-50%); background-color: transparent; border: none; border-radius: 50%; cursor: pointer; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; opacity: 0.5; transition: opacity 0.3s; pointer-events: none; }
+#send-button img.send-icon { width: 20px; height: 20px; } /* 调整图标大小 */
+#send-button.active { opacity: 1; pointer-events: auto; }
+.message-container { display: flex; align-items: flex-start; margin: 5px 0; }
+.message { padding: 5px 10px; border-radius: 10px; max-width: 70%; word-wrap: break-word; }
+.user-container { justify-content: flex-end; }
+.user { background-color: #f0f0f0; color: black; text-align: right; }
+.bot-container { justify-content: flex-start; }
+.bot { background-color: #c2dcf6; color: black; text-align: left; margin-left: 10px; } /* 将背景颜色改为淡蓝色 */
+.bot img { margin-right: 10px; }
+pre {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    margin: 0;
+}
+code {
+    background: #f8f8f8;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+#toggle-recognition {
+    background-color: lightblue; /* 背景色为淡绿色 */
+    width: 100%; /* 宽度与输入框一致 */
+    height: 40px; /* 高度与输入框一致 */
+    border-radius: 10px; /* 四个边角圆滑 */
+    color: white; /* 文字颜色为白色，以便在淡绿色背景上看清楚 */
+}

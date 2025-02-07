@@ -1,0 +1,29 @@
+{
+  "name": "weassistant2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "antd": "^5.19.4",
+    "geoip-lite": "^1.4.10",
+    "next": "14.2.5",
+    "next-intl": "^3.17.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.77.8",
+    "openai": "^4.83.0",
+    "libreoffice-convert": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}

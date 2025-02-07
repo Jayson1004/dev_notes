@@ -1,0 +1,102 @@
+/* 基本样式 */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#chat-container {
+    flex: 1;
+}
+
+.jumbotron {
+    background: #f8f9fa;
+    padding: 4rem 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.features .col-md-4 {
+    margin-bottom: 2rem;
+}
+
+.about {
+    padding: 4rem 2rem;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 2rem 0;
+}
+
+/* 确保所有导航链接具有相同的样式 */
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+.nav-item.active .nav-link {
+    color: #0056b3;
+}
+
+/* 联系方式部分样式 */
+.contact-info {
+    max-width: 500px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* 居中显示 */
+}
+
+
+/* 介绍图片部分样式 */
+.intro-image {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.team img {
+    max-width: 150px;
+    height: auto;
+}
+
+.team h3 {
+    margin-top: 15px;
+}
+
+.team p {
+    margin-bottom: 0;
+}
+
+/* 透明分割线样式 */
+hr.transparent-divider {
+    margin: 2rem 0; /* 适当调整分割线的上下间距 */
+    border: 0;
+    border-top: 1px solid transparent;
+}
